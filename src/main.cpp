@@ -16,6 +16,7 @@ constexpr uint8_t MOSIpin = 23;
 constexpr uint8_t SDApin = 21;
 constexpr uint8_t SCLpin = 22;
 
+constexpr char deviceName[] = "fightController";
 constexpr uint8_t UART_RX = 4;
 constexpr uint8_t UART_TX = 5;
 constexpr uint32_t serialBaud = 115200;
